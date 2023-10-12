@@ -1,0 +1,47 @@
+base: 'https://bht-cms-typo3.ddev.site/'
+languages:
+  -
+    title: Deutsch
+    enabled: true
+    languageId: 0
+    base: /
+    typo3Language: de
+    locale: de_DE
+    iso-639-1: de
+    navigationTitle: Deutsch
+    hreflang: de-de
+    direction: ltr
+    flag: de
+    websiteTitle: ''
+  -
+    title: Englisch
+    enabled: true
+    base: /en
+    typo3Language: default
+    locale: en_GB
+    iso-639-1: en
+    websiteTitle: ''
+    navigationTitle: Englisch
+    hreflang: en-gb
+    direction: ''
+    fallbackType: strict
+    fallbacks: ''
+    flag: gb
+    languageId: 1
+  -
+    title: Italienisch
+    enabled: true
+    base: /it
+    typo3Language: it
+    locale: it_IT
+    iso-639-1: it
+    websiteTitle: ''
+    navigationTitle: Italien
+    hreflang: it-it
+    direction: ltr
+    fallbackType: strict
+    fallbacks: ''
+    flag: it
+    languageId: 2
+rootPageId: 1
+websiteTitle: ''

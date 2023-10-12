@@ -1,0 +1,10 @@
+page.10.dataProcessing {
+    ## Main Menu
+    10 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+    10 {
+        as = mainMenu
+        expandAll = 1
+        levels = 2
+        titleField = nav_title // title
+    }
+}

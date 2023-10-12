@@ -1,0 +1,56 @@
+page = PAGE
+
+page {
+    meta {
+        viewport = width=device-width, initial-scale=1, user-scalable=no
+    }
+
+    includeCSS {
+        main = EXT:bht-su-theme/Resources/Public/Css/main.css
+    }
+
+    includeJSFooter {
+        jquery = EXT:bht-su-theme/Resources/Public/Js/jquery.min.js
+        browser = EXT:bht-su-theme/Resources/Public/Js/browser.min.js
+        breakpoints = EXT:bht-su-theme/Resources/Public/Js/breakpoints.min.js
+        util = EXT:bht-su-theme/Resources/Public/Js/util.js
+        main = EXT:bht-su-theme/Resources/Public/Js/main.js
+    }
+}
+
+page.10 = FLUIDTEMPLATE
+page.10 {
+    layoutRootPath = EXT:bht-su-theme/Resources/Private/Layouts/
+    partialRootPath = EXT:bht-su-theme/Resources/Private/Partials/
+
+    #file = EXT:bht-su-theme/Resources/Private/Templates/Default.html
+    file.stdWrap.cObject = CASE
+    file.stdWrap.cObject {
+        key.data = pagelayout
+        pagets__default = TEXT
+        pagets__default.value = EXT:bht-su-theme/Resources/Private/Templates/Default.html
+
+        pagets__2colSidebar = TEXT
+        pagets__2colSidebar.value = EXT:bht-su-theme/Resources/Private/Templates/2colSidebar.html
+
+        # Wenn kein Layout gewählt wurde, nimm folgendes:
+        default < .pagets__default
+    }
+
+
+    variables {
+        content0 < styles.content.get
+
+        content1 < styles.content.get
+        content1 {
+            select.where = colPos = 1
+            slide = -1
+            slide.collect = -1
+        }
+
+        content2 < styles.content.get
+        content2 {
+            select.where = colPos = 2
+        }
+    }
+}

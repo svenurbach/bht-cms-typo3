@@ -1,0 +1,72 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+<nav id="menu">
+    <header class="major">
+        <h2>Menu</h2>
+    </header>
+    <ul>
+        <f:for each="{mainMenu}" as="item">
+            <f:render section="link" arguments="{_all}"/>
+        </f:for>
+    </ul>
+</nav>
+
+<f:section name="link">
+    <li>
+        <f:if condition="{item.children}">
+            <f:then>
+                <span class="opener">{item.title}</span>
+                <f:render section="submenu" arguments="{_all}"/>
+            </f:then>
+            <f:else>
+                <f:link.page pageUid="{item.data.uid}" title="{item.title}" target="{item.target}">{item.title}</f:link.page>
+            </f:else>
+        </f:if>
+    </li>
+</f:section>
+
+<f:section name="submenu">
+    <ul>
+        <f:for each="{item.children}" as="item">
+            <f:render section="link" arguments="{_all}"/>
+        </f:for>
+    </ul>
+</f:section>
+
+
+<f:comment>
+<nav id="menu">
+    <header class="major">
+        <h2>Menu</h2>
+    </header>
+    <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="generic.html">Generic</a></li>
+        <li><a href="elements.html">Elements</a></li>
+        <li>
+            <span class="opener">Submenu</span>
+            <ul>
+                <li><a href="#">Lorem Dolor</a></li>
+                <li><a href="#">Ipsum Adipiscing</a></li>
+                <li><a href="#">Tempus Magna</a></li>
+                <li><a href="#">Feugiat Veroeros</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Etiam Dolore</a></li>
+        <li><a href="#">Adipiscing</a></li>
+        <li>
+            <span class="opener">Another Submenu</span>
+            <ul>
+                <li><a href="#">Lorem Dolor</a></li>
+                <li><a href="#">Ipsum Adipiscing</a></li>
+                <li><a href="#">Tempus Magna</a></li>
+                <li><a href="#">Feugiat Veroeros</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Maximus Erat</a></li>
+        <li><a href="#">Sapien Mauris</a></li>
+        <li><a href="#">Amet Lacinia</a></li>
+    </ul>
+</nav>
+</f:comment>
+</html>

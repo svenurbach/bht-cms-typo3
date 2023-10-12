@@ -1,0 +1,21 @@
+{
+  "name": "su/bht-su-theme",
+  "description": "Template",
+  "type": "typo3-cms-extension",
+  "license": "GPL-2.0-or-later",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Sven Urbach",
+      "email": "urbachsven@gmail.com"
+    }
+  ],
+  "require": {
+    "typo3/cms-fluid-styled-content": "^11.5"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "bht-su-theme"
+    }
+  }
+}
