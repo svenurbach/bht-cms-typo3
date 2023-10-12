@@ -1,0 +1,42 @@
+# IDE und DDEV
+.idea/
+.ddev/
+
+# TYPO3-spezifische Ordner und Dateien
+typo3conf/localconf.php
+/public/typo3/
+/public/typo3conf/LocalConfiguration.php
+typo3temp/
+uploads/
+fileadmin/
+typo3_src/
+web/typo3temp/
+web/uploads/
+web/fileadmin/
+web/typo3conf/
+AdditionalConfiguration.php
+var/
+.cache/
+.htaccess
+.env
+.phpstorm.meta.php
+/composer.json
+/composer.lock
+
+# Log-Dateien
+*.log
+error_log
+access_log
+
+# Caches und temporäre Dateien
+*.cache
+*.swp
+Thumbs.db
+.DS_Store
+
+# Abhängigkeiten und Composer-spezifische Dateien
+/vendor/
+/node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
