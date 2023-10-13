@@ -1,0 +1,16 @@
+plugin.tx_indexedsearch {
+    view {
+        partialRootPaths.100 = EXT:bht-su-theme/Resources/Extensions/indexed_search/Partials/
+    }
+    settings {
+        targetPid = {$bht-su-theme.searchTargetPid}
+        rootPidList = {$bht-su-theme.searchRootPidList}
+    }
+}
+
+lib.searchField = RECORDS
+lib.searchField {
+    tables = tt_content
+    source = {$bht-su-theme.searchPluginPid}
+    dontCheckPid = 1
+}

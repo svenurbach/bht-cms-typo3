@@ -69,5 +69,7 @@ page.10 {
         socialmedia.facebook = {$bht-su-theme.socialmedia.facebook}
         socialmedia.instagram = {$bht-su-theme.socialmedia.instagram}
         socialmedia.github = {$bht-su-theme.socialmedia.github}
+
+        searchTargetPid = {$bht-su-theme.searchTargetPid}
     }
 }

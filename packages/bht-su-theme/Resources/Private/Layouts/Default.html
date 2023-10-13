@@ -1,4 +1,5 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
 <!-- Wrapper -->
 <div id="wrapper">
 
@@ -12,7 +13,9 @@
                 <f:render partial="SocialMedia"/>
             </header>
             <f:render partial="Breadcrumb" arguments="{_all}"/>
+            <!--TYPOSEARCH_begin-->
             <f:render section="Main"/>
+            <!--TYPOSEARCH_end-->
 
         </div>
     </div>
@@ -22,20 +25,26 @@
         <div class="inner">
 
             <!-- Search -->
-            <section id="search" class="alt">
-                <form method="post" action="#">
-                    <input type="text" name="query" id="query" placeholder="Search"/>
-                </form>
-            </section>
+            <f:if condition="{data.uid} != {settings.searchTargetPid}">
+                <f:cObject typoscriptObjectPath="lib.searchField"/>
+            </f:if>
+            <f:comment>
+                <section id="search" class="alt">
+                    <form method="post" action="#">
+                        <input type="text" name="query" id="query" placeholder="Search"/>
+                    </form>
+                </section>
+            </f:comment>
 
             <!-- Menu -->
             <f:render partial="MainMenu" arguments="{_all}"/>
 
-
             <!-- Section -->
+            <!--TYPOSEARCH_begin-->
             <section>
                 {content1 -> f:format.raw()}
             </section>
+            <!--TYPOSEARCH_end-->
 
             <!-- Footer -->
             <f:render partial="Footer" arguments="{_all}"/>
@@ -44,4 +53,5 @@
     </div>
 
 </div>
+
 </html>

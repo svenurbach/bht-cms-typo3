@@ -5,6 +5,10 @@ bht-su-theme {
     logoText = Typo3-SU
     logoFile = EXT:bht-su-theme/Resources/Public/Images/logo.png
 
+    searchPluginPid = 16
+    searchTargetPid = 18
+    searchRootPidList = 1
+
     socialmedia.twitter = dsfadsf
     socialmedia.facebook = asdfsdf
     socialmedia.instagram = sfsadf

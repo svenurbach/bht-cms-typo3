@@ -1007,8 +1007,8 @@ header.main > :last-child {
   margin: 0 0 1em 0; }
 
 /* Form */
-form {
-  margin: 0 0 2em 0; }
+/*form {*/
+/*  margin: 0 0 2em 0; }*/
 
 label {
   color: #3d4449;
@@ -1948,7 +1948,7 @@ button,
         border-bottom: 0;
         margin-bottom: 0;
         padding-bottom: 0; }
-    #sidebar > .inner > .alt {
+    #sidebar > .inner .alt {
       background-color: #eff1f2;
       border-bottom: 0;
       margin: -2.22222em 0 4.44444em -2.22222em;
@@ -2068,6 +2068,12 @@ button,
         position: absolute;
         top: 1em;
         width: 5em; } }
+
+#sidebar #c16 {
+  border-bottom: 0;
+  margin: 0;
+  padding: 0;
+}
 
 /* Header */
 #header {
