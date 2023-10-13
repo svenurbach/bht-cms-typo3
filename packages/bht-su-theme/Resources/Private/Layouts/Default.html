@@ -9,15 +9,9 @@
             <!-- Header -->
             <header id="header">
                 <f:render partial="Logo" arguments="{_all}"/>
-                <ul class="icons">
-                    <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                    <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                    <li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
-                    <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                    <li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
-                </ul>
+                <f:render partial="SocialMedia"/>
             </header>
-
+            <f:render partial="Breadcrumb" arguments="{_all}"/>
             <f:render section="Main"/>
 
         </div>
@@ -44,10 +38,7 @@
             </section>
 
             <!-- Footer -->
-            <footer id="footer">
-                <p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>.
-                    Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-            </footer>
+            <f:render partial="Footer" arguments="{_all}"/>
 
         </div>
     </div>

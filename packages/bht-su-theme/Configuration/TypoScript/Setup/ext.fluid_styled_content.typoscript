@@ -1,0 +1,9 @@
+lib.contentElement {
+    partialRootPaths {
+        100 = EXT:bht-su-theme/Resources/Extensions/fluid_styled_content/Partials/
+    }
+}
+
+## data Attribut für lightbox Script
+## https://fslightbox.com/
+lib.contentElement.settings.media.popup.linkParams.ATagParams.dataWrap = data-fslightbox="image-{field:uid}" data-type="image"

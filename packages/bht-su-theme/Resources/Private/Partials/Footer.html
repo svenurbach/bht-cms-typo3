@@ -1,0 +1,18 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+<footer id="footer">
+    <div class="copyright">
+        <p><f:cObject typoscriptObjectPath="lib.copyright"/></p>
+        <f:if condition="{footerMenu}">
+            <ul class="footerMenu">
+                <f:for each="{footerMenu}" as="item">
+                    <li>
+                        <f:link.page pageUid="{item.data.uid}" title="{item.title}" target="{item.target}">{item.title}</f:link.page>
+                    </li>
+                </f:for>
+            </ul>
+        </f:if>
+    </div>
+</footer>
+
+</html>

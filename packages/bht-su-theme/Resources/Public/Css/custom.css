@@ -1,0 +1,84 @@
+/* Footer Menu */
+.footerMenu, .footerMenu li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Table Style Alternative */
+table.ce-table-alt {
+    border-collapse: separate;
+}
+
+table.ce-table-alt tbody tr td {
+    border: solid 1px rgba(210, 215, 217, 0.75);
+    border-left-width: 0;
+    border-top-width: 0;
+}
+
+table.ce-table-alt tbody tr td:first-child {
+    border-left-width: 1px;
+}
+
+table.ce-table-alt tbody tr:first-child td {
+    border-top-width: 1px;
+}
+
+table .ce-table-alt thead {
+    border-bottom: 0;
+}
+
+table.ce-table-alt tfoot {
+    border-top: 0;
+}
+
+/* Breadcrumb */
+.breadcrumb li {
+    list-style: none;
+    display: inline;
+}
+
+.breadcrumb li + li:before {
+    content: "/\00a0";
+}
+
+/* Video Respronsiv */
+.ce-gallery figure.video {
+    display: block;
+}
+
+.video-embed {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+.video-embed iframe,
+.video-embed video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Workaround fuer Responsive Videos in Verbindung mit fluid_styled_content */
+.frame-layout-10 .ce-center .ce-inner {
+    position: relative;
+    float: none;
+    right: -50%;
+}
+
+.frame-layout-10 .ce-left .ce-gallery,
+.frame-layout-10 .ce-column {
+    float: none;
+}
+
+.frame-layout-10 .ce-center .ce-outer {
+    position: relative;
+    float: none;
+    right: 50%;
+}

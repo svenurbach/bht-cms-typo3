@@ -1,0 +1,30 @@
+page.10.dataProcessing {
+    ## Main Menu
+    10 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+    10 {
+        as = mainMenu
+        expandAll = 1
+        levels = 2
+        titleField = nav_title // title
+    }
+
+    ## Footer Menu
+    20 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+    20 {
+        as = footerMenu
+        special = directory
+        special.value = 12
+        levels = 1
+        titleField = nav_title // title
+    }
+
+    ## Breadcrumb Navigation
+    30 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+    30 {
+        as = breadcrumb
+        special = rootline
+        special.range = 0|-1
+        titleField = nav_title // title
+        includeNotInMenu = 1
+    }
+}

@@ -4,3 +4,4 @@ if (!defined ('TYPO3_MODE')) {
 }
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile('bht-su-theme','Configuration/TSconfig/BackendLayouts.tsconfig','Default Backend Layout mit Sidebar');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile('bht-su-theme','Configuration/TSconfig/Page_general.tsconfig','Default Page TSconfig');

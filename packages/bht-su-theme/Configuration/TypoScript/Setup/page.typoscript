@@ -1,12 +1,15 @@
 page = PAGE
 
 page {
+    shortcutIcon = EXT:bht-su-theme/Resources/Public/Icons/favicon.ico
+
     meta {
         viewport = width=device-width, initial-scale=1, user-scalable=no
     }
 
     includeCSS {
         main = EXT:bht-su-theme/Resources/Public/Css/main.css
+        custom = EXT:bht-su-theme/Resources/Public/Css/custom.css
     }
 
     includeJSFooter {
@@ -15,7 +18,10 @@ page {
         breakpoints = EXT:bht-su-theme/Resources/Public/Js/breakpoints.min.js
         util = EXT:bht-su-theme/Resources/Public/Js/util.js
         main = EXT:bht-su-theme/Resources/Public/Js/main.js
+        fslightbox = EXT:bht-su-theme/Resources/Public/Js/fslightbox.js
     }
+
+    bodyTagAdd = class="is-preload"
 }
 
 page.10 = FLUIDTEMPLATE
@@ -52,5 +58,16 @@ page.10 {
         content2 {
             select.where = colPos = 2
         }
+    }
+
+    settings {
+        rootPageId = {$bht-su-theme.rootPageId}
+        logoText = {$bht-su-theme.logoText}
+        logoFile = {$bht-su-theme.logoFile}
+
+        socialmedia.twitter = {$bht-su-theme.socialmedia.twitter}
+        socialmedia.facebook = {$bht-su-theme.socialmedia.facebook}
+        socialmedia.instagram = {$bht-su-theme.socialmedia.instagram}
+        socialmedia.github = {$bht-su-theme.socialmedia.github}
     }
 }

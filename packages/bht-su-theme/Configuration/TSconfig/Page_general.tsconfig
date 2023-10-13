@@ -1,0 +1,30 @@
+TCEFORM {
+    tt_content {
+        header_layout {
+            altLabels {
+                1 = h1 - Seitenüberschrift
+                2 = h2 - Themenüberschrift
+                3 = h3 - Überschrift 3. Ordnung
+                4 = h4 - Überschrift 4. Ordnung
+                5 = h5 - Überschrift 5. Ordnung
+            }
+            removeItems = 5
+        }
+        frame_class {
+            addItems {
+                100 = Überschrift unterstrichen
+            }
+        }
+        table_class {
+            addItems {
+                alt = Alternativ
+            }
+        }
+        ## Workaround für responsive Videos in Verbindung mit fluid_styled_content default CSS
+        layout {
+            addItems {
+                10 = Responsive Video
+            }
+        }
+    }
+}

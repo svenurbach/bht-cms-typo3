@@ -1,1 +1,12 @@
 @import "EXT:bht-su-theme/Configuration/TypoScript/Constants/*.typoscript"
+
+bht-su-theme {
+    rootPageId = 1
+    logoText = Typo3-SU
+    logoFile = EXT:bht-su-theme/Resources/Public/Images/logo.png
+
+    socialmedia.twitter = dsfadsf
+    socialmedia.facebook = asdfsdf
+    socialmedia.instagram = sfsadf
+    socialmedia.github = sdfsdfaf
+}
