@@ -25,7 +25,7 @@
         <div class="inner">
 
             <!-- Search -->
-            <f:if condition="{data.uid} != {settings.searchTargetPid}">
+            <f:if condition="{data.uid} != {settings.search.targetPid}">
                 <f:cObject typoscriptObjectPath="lib.searchField"/>
             </f:if>
             <f:comment>

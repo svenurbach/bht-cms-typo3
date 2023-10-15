@@ -1,16 +1,18 @@
 plugin.tx_indexedsearch {
+    ## Hier werden die zentralen Plugin-Settings überschrieben
     view {
         partialRootPaths.100 = EXT:bht-su-theme/Resources/Extensions/indexed_search/Partials/
     }
     settings {
-        targetPid = {$bht-su-theme.searchTargetPid}
-        rootPidList = {$bht-su-theme.searchRootPidList}
+        targetPid = {$bht-su-theme.search.targetPid}
+        ## Wird noch nicht gebraucht, aber wichtig bei multisite-projekten
+        rootPidList = {$bht-su-theme.search.rootPidList}
     }
 }
 
 lib.searchField = RECORDS
 lib.searchField {
     tables = tt_content
-    source = {$bht-su-theme.searchPluginPid}
+    source = {$bht-su-theme.search.pluginPid}
     dontCheckPid = 1
 }
