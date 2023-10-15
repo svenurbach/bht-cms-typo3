@@ -2,15 +2,27 @@
 
 bht-su-theme {
     rootPageId = 1
-    logoText = Typo3-SU
-    logoFile = EXT:bht-su-theme/Resources/Public/Images/logo.png
 
-    searchPluginPid = 16
-    searchTargetPid = 18
-    searchRootPidList = 1
+    ## Logo
+    logo {
+        title = Typo3-SU
+        altText = Website-Logo
+        file = EXT:bht-su-theme/Resources/Public/Images/logo.png
+    }
 
-    socialmedia.twitter = dsfadsf
-    socialmedia.facebook = asdfsdf
-    socialmedia.instagram = sfsadf
-    socialmedia.github = sdfsdfaf
+    ## Search Field
+    search {
+        pluginPid = 16
+        targetPid = 18
+        rootPidList = 1
+    }
+
+    ## Social Media Icons
+    socialmedia {
+        twitter = dsfadsf
+        facebook = asdfsdf
+        instagram = sfsadf
+        github = svenurbach
+        linkedin = https://www.linkedin.com/in/sven-urbach/
+    }
 }
