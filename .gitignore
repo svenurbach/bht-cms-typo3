@@ -3,7 +3,7 @@
 .ddev/
 
 # TYPO3-spezifische Ordner und Dateien
-typo3conf/localconf.php
+typo3conf/
 /public/typo3/
 /public/typo3conf/LocalConfiguration.php
 typo3temp/
