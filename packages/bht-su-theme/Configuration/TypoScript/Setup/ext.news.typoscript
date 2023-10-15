@@ -1,0 +1,9 @@
+plugin.tx_news {
+    ## Hier werden die zentralen Plugin-Settings überschrieben
+    view {
+        partialRootPaths.100 = EXT:bht-su-theme/Resources/Extensions/news/Partials/
+    }
+    settings {
+        ## Platz um Settings der Externsion zu überschreiben
+    }
+}
