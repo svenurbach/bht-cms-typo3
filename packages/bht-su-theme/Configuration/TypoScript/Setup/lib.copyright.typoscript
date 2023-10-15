@@ -7,5 +7,5 @@ lib.copyright {
     20.data = date: Y
 
     30 = TEXT
-    30.value = &nbsp;{$bht-su-theme.logoText}
+    30.value = &nbsp;{$bht-su-theme.logo.title}
 }
