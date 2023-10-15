@@ -72,9 +72,11 @@
 		<p>
 			<!-- date -->
 			<span class="news-list-date">
+				<i class="far fa-calendar-alt"></i>
 				<time itemprop="datePublished" datetime="{f:format.date(date:newsItem.datetime, format:'Y-m-d')}">
 					<f:format.date format="{f:translate(key:'dateFormat')}">{newsItem.datetime}</f:format.date>
 				</time>
+
 			</span>
 
 			<f:if condition="{newsItem.firstCategory}">
@@ -84,6 +86,7 @@
 
 			<f:if condition="{newsItem.tags}">
 				<!-- Tags -->
+				<i class="fas fa-tags"></i>
 				<span class="news-list-tags" itemprop="keywords">
 					<f:for each="{newsItem.tags}" as="tag">
 						{tag.title}
