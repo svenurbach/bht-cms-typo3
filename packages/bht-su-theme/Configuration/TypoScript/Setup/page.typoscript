@@ -9,6 +9,7 @@ page {
     includeCSS {
         main = EXT:bht-su-theme/Resources/Public/Css/main.css
         custom = EXT:bht-su-theme/Resources/Public/Css/custom.css
+        print = EXT:bht-su-theme/Resources/Public/Css/print.css
     }
 
     includeJSFooter {
@@ -78,3 +79,6 @@ page.10 {
         search.targetPid = {$bht-su-theme.search.targetPid}
     }
 }
+
+## Print-CSS
+print.csspage.includeCSS.print.media = print
