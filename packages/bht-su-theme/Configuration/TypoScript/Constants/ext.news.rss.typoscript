@@ -1,0 +1,11 @@
+plugin.tx_news {
+    rss.channel {
+        title = RSS-Feed
+        description = Dies ist der RSS-Feed zu meiner BHT-CMS-Seite
+        link = https://bht-cms-typo3.ddev.site
+        language = de_DE
+        copyright = Sven Urbach
+        category =
+        generator = TYPO3 EXT:news
+    }
+}
