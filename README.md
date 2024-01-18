@@ -1,5 +1,8 @@
 # bht-cms-typo3
 
+## Getting started
+`ddev launch`
+
 ## Extensions installed
 * https://extensions.typo3.org/extension/scroll
 * https://extensions.typo3.org/extension/yoast_seo/
@@ -52,4 +55,4 @@ Ermitteln Sie einen Index für die Digitale Souveränität ihrer Anwendung von 0
 Print.css angelegt und angepasst
 
 #### RSS
-https://bht-cms-typo3.ddev.site/?type=9818
+https://bht-cms-typo3.ddev.site/?type=9818 und mit Thunderbird getestet
