@@ -4,6 +4,6 @@ plugin.tx_news {
         partialRootPaths.100 = EXT:bht-su-theme/Resources/Extensions/news/Partials/
     }
     settings {
-        ## Platz um Settings der Externsion zu überschreiben
+        ## Platz um Settings der Extension zu überschreiben
     }
 }

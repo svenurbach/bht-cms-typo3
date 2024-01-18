@@ -5,7 +5,7 @@ bht-su-theme {
 
     ## Logo
     logo {
-        title = Typo3-SU
+        title = Typo3-SU-Projekt
         altText = Website-Logo
         file = EXT:bht-su-theme/Resources/Public/Images/logo.png
     }
