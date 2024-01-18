@@ -1,0 +1,47 @@
+base: 'https://bht-cms-typo3.ddev.site/blog'
+languages:
+  -
+    title: English
+    enabled: true
+    languageId: 0
+    base: /en
+    typo3Language: default
+    locale: en_US.UTF-8
+    iso-639-1: en
+    navigationTitle: English
+    hreflang: en-us
+    direction: ltr
+    flag: us
+    websiteTitle: ''
+  -
+    title: Italienisch
+    enabled: true
+    base: /it/
+    typo3Language: it
+    locale: it_IT
+    iso-639-1: it
+    websiteTitle: ''
+    navigationTitle: Italien
+    hreflang: it-it
+    direction: ltr
+    fallbackType: strict
+    fallbacks: ''
+    flag: it
+    languageId: 2
+  -
+    title: Deutsch
+    enabled: true
+    base: /
+    typo3Language: de
+    locale: de_DE
+    iso-639-1: de
+    websiteTitle: ''
+    navigationTitle: Deutsch
+    hreflang: de-DE
+    direction: ltr
+    fallbackType: strict
+    fallbacks: ''
+    flag: de
+    languageId: 3
+rootPageId: 24
+websiteTitle: 'Mein Blog'
