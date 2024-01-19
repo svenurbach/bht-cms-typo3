@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:projectmanager/Resources/Private/Language/locallang_csh_tx_projectmanager_domain_model_tech.xlf" date="2024-01-19T11:38:17Z" product-name="projectmanager">
+		<header/>
+		<body>
+			<trans-unit id="name.description" resname="name.description">
+				<source>name</source>
+			</trans-unit>
+			<trans-unit id="version.description" resname="version.description">
+				<source>version</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

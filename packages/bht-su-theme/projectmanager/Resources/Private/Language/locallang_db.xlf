@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:projectmanager/Resources/Private/Language/locallang_db.xlf" date="2024-01-19T11:38:17Z" product-name="projectmanager">
+		<header/>
+		<body>
+			<trans-unit id="tx_projectmanager_domain_model_project" resname="tx_projectmanager_domain_model_project">
+				<source>Project</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_project.description" resname="tx_projectmanager_domain_model_project.description">
+				<source>Project</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_project.name" resname="tx_projectmanager_domain_model_project.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_project.name.description" resname="tx_projectmanager_domain_model_project.name.description">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_project.teammember" resname="tx_projectmanager_domain_model_project.teammember">
+				<source>Teammember</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_project.teammember.description" resname="tx_projectmanager_domain_model_project.teammember.description">
+				<source>Teammember</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_project.client" resname="tx_projectmanager_domain_model_project.client">
+				<source>Client</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_project.client.description" resname="tx_projectmanager_domain_model_project.client.description">
+				<source>Client</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_project.has" resname="tx_projectmanager_domain_model_project.has">
+				<source>Has</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_project.has.description" resname="tx_projectmanager_domain_model_project.has.description">
+				<source>Has</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_tech" resname="tx_projectmanager_domain_model_tech">
+				<source>Tech</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_tech.description" resname="tx_projectmanager_domain_model_tech.description">
+				<source>Tech</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_tech.name" resname="tx_projectmanager_domain_model_tech.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_tech.name.description" resname="tx_projectmanager_domain_model_tech.name.description">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_tech.version" resname="tx_projectmanager_domain_model_tech.version">
+				<source>Version</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_tech.version.description" resname="tx_projectmanager_domain_model_tech.version.description">
+				<source>Version</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_person" resname="tx_projectmanager_domain_model_person">
+				<source>Person</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_person.description" resname="tx_projectmanager_domain_model_person.description">
+				<source>Person</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_person.name" resname="tx_projectmanager_domain_model_person.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_person.name.description" resname="tx_projectmanager_domain_model_person.name.description">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_person.role" resname="tx_projectmanager_domain_model_person.role">
+				<source>Role</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_person.role.description" resname="tx_projectmanager_domain_model_person.role.description">
+				<source>Role</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_person.works_at" resname="tx_projectmanager_domain_model_person.works_at">
+				<source>Works At</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_domain_model_person.works_at.description" resname="tx_projectmanager_domain_model_person.works_at.description">
+				<source>Works At</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_projectmanager.name" resname="tx_projectmanager_projectmanager.name">
+				<source>Projectmanager</source>
+			</trans-unit>
+			<trans-unit id="tx_projectmanager_projectmanager.description" resname="tx_projectmanager_projectmanager.description">
+				<source></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
