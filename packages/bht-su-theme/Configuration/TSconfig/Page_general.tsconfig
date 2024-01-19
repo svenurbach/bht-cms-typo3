@@ -28,3 +28,9 @@ TCEFORM {
         }
     }
 }
+
+## Rechte für neue Seiten
+TCEMAIN.permissions {
+    group = show,edit,delete,new,editcontent
+    groupid = 2
+}

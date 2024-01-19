@@ -1,6 +1,5 @@
 # IDE und DDEV
 .idea/
-.ddev/
 
 # TYPO3-spezifische Ordner und Dateien
 typo3conf/
@@ -20,8 +19,6 @@ var/
 .htaccess
 .env
 .phpstorm.meta.php
-/composer.json
-/composer.lock
 
 # Log-Dateien
 *.log
