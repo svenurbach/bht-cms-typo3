@@ -78,6 +78,15 @@ page.10 {
         ## Search
         search.targetPid = {$bht-su-theme.search.targetPid}
     }
+
+    ## Language Menu
+    dataProcessing {
+        40 = TYPO3\CMS\Frontend\DataProcessing\LanguageMenuProcessor
+        40 {
+            languages = auto
+            as = languagenavigation
+        }
+    }
 }
 
 ## Print-CSS

@@ -42,7 +42,7 @@ table.ce-table-alt tfoot {
     content: "/\00a0";
 }
 
-/* Video Respronsiv */
+/* Video Responsiv */
 .ce-gallery figure.video {
     display: block;
 }
@@ -81,4 +81,9 @@ table.ce-table-alt tfoot {
     position: relative;
     float: none;
     right: 50%;
+}
+
+/* Formular */
+.frame-type-form_formframework .btn-group {
+    padding-top: 1rem;
 }

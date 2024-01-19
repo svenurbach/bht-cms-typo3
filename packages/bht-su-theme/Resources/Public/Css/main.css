@@ -1006,16 +1006,12 @@ header.major > :last-child {
 header.main > :last-child {
   margin: 0 0 1em 0; }
 
-/* Form */
-/*form {*/
-/*  margin: 0 0 2em 0; }*/
-
 label {
   color: #3d4449;
   display: block;
   font-size: 0.9em;
   font-weight: 600;
-  margin: 0 0 1em 0; }
+  margin: 1em 0 0 0; }
 
 input[type="text"],
 input[type="password"],
