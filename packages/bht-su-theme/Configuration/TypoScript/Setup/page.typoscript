@@ -1,5 +1,11 @@
 page = PAGE
 page {
+    config {
+        concatenateJs = 1
+        concatenateCss = 1
+        compressJs = 1
+        compressCss = 1
+    }
     shortcutIcon = EXT:bht-su-theme/Resources/Public/Icons/favicon.ico
 
     meta {

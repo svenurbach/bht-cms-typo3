@@ -41,7 +41,8 @@
         "t3/scroll": "^1.0",
         "yoast-seo-for-typo3/yoast_seo": "^9.0",
         "friendsoftypo3/extension-builder": "^11.0",
-        "projectmanager/projectmanager": "@dev"
+        "projectmanager/projectmanager": "@dev",
+        "friendsoftypo3/frontend-editing": "^4.0"
     },
     "config": {
         "allow-plugins": {
@@ -50,14 +51,9 @@
         }
     },
     "repositories": {
-        "bht-su-theme": {
+        "local": {
             "type": "path",
-            "url": "./packages/bht-su-theme"
-        },
-        "projectmanager/projectmanager": {
-            "type": "path",
-            "url": "./packages/bht-su-theme/*"
+            "url": "./packages/*/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
